@@ -1,0 +1,261 @@
+p{
+	font-family: 'Ruda', sans-serif;
+}
+a{
+	font-family: 'Ruda', sans-serif;
+}
+.container-fluid {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.bottom-center {
+  position: absolute;
+  top: 40%;
+  left: 21%;
+  transform: translate(-40%, -50%);
+  
+}
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+
+.innovation{
+	font-family: 'Ruda', sans-serif;
+	font-weight: bold;
+	font-size: 20px;
+	text-align: left;
+}
+.in1{
+	padding-top: 70px;
+}
+.dicover{
+	font-family: 'Yeseva One', cursive;
+	font-weight: bold;
+	text-align: left;
+	font-size: 40px;
+	
+}
+.overlay {
+    z-index: 9;
+    margin: 30px;
+    background: #ffffff ;
+	box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+.boxes {
+  
+  padding: 10px;
+  border: 1px solid gray;
+  
+}
+.head-style{
+	font-family: 'Edu NSW ACT Foundation', cursive;
+	text-align: center;
+	font-weight: bold;
+	font-size: 25px;
+}
+.box-text{
+	text-align: center;
+	font-weight: normal;
+	font-size: 20px;
+	font-family: 'Edu NSW ACT Foundation', cursive;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-bottom: 30px;
+}
+.go-to{
+	text-align: center;
+	padding-bottom: 20px;
+	display: block;
+	color: red;
+	text-decoration: none;
+}
+ .box1 {
+        
+        position: absolute;
+        top: 120%;
+        left: 10%;
+        opacity: 1;
+        
+      }
+	  .box2 {
+    left: 30%;
+}
+.box3{
+	left: 50%
+}
+.box4{
+	left: 70%
+}
+.icon-size{
+	width : 50%;
+	heihgt: 50%;
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+	
+}
+.portrait-block{
+	
+	background-image: linear-gradient(to right, #7393B3 , #ffffff);
+}
+.portrait-img{
+	width: 300px;
+	height: auto;
+	padding-top: 50px;
+	text-align: left;
+	padding-bottom: 50px;
+}
+
+.empty-block{
+	margin-bottom: 50px;
+	margin-top: 350px;
+}
+.intro{
+	color: #000000;
+	font-family: 'Yeseva One', cursive;
+	padding-top: 150px;
+	padding-right: 250px;
+	font-size: 15px;
+	text-align: center;
+	
+}
+.presenter-info{
+	font-family: 'Yeseva One', cursive;
+	text-align: center;
+	font-size: 30px;
+}
+.participants{
+	color: #ffffff;
+	font-size: 15px;
+	width: 100%;
+	height: 350px;
+	display: flex;
+	justify-content: center;
+}
+.participants-back{
+	background-color: #0C2D48;
+}
+.pname{
+	font-family: 'Yeseva One', cursive;
+	font-size: 20px;
+}
+.project-name{
+	color: #EE4B2B;
+	font-size: 15px;
+	padding-top: 10px;
+}
+.info-proj{
+	padding-right: 20px;
+	padding-top: 20px;
+	font-size: 14px;
+	color:#A9A9A9;
+	font-style: italic;
+}
+.go-to:hover { color: #00008B; } /* CSS link hover (green) */
+.link { color: red; } /* CSS link color (red) */
+.link:hover { color: #ffffff; } /* CSS link hover (green) */
+.detail-text{
+	text-align:left;
+	background-color: #0C2D48;
+	padding-top: 30px;
+
+}
+.profile-cls{
+	max-width: 100%;
+    max-height: 100%;
+    display: block; 
+	
+}
+.quote{
+	color: #000000;
+	font-size: 25px;
+	
+}
+.quote-div{
+	margin: 150px 150px 50px 100px;
+}
+.author{
+	text-align: right;
+	color: #000000;
+}
+.footer-bcolor{
+	background-color: #0C2D48;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.address{
+	padding-top: 90px;
+}
+@media only screen and (min-width: 601px) {
+  .innovation {
+    font-size: 20px;
+  }
+  .dicover{
+	
+	font-size: 40px;
+	
+}
+.in1{
+	padding-top: 70px;
+}
+}
+
+@media only screen and (max-width: 600px) {
+ .innovation {
+    font-size: 10px;
+  }
+  .dicover{
+	
+	font-size: 20px;
+	
+}
+.in1{
+	padding-top: 0px;
+}
+.bottom-center {
+  position: absolute;
+  top: 50%;
+  left: 35%;
+  transform: translate(-40%, -50%);
+  
+}
+.box1 {
+        
+        position: relative;
+        top: 0;
+        left: 0;
+        opacity: 1;
+        
+      }
+	  .overlay {
+    
+    margin: 0px;
+    
+}
+.box2 {
+    left: 0;
+}
+.box3{
+	left: 0;
+}
+.box4{
+	left: 0;
+}
+.empty-block{
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+.detail-text{
+	text-align:center;
+	
+}
+.footer-bcolor{
+	
+	padding-top: 0px;
+	padding-bottom: 20px;
+}
+}
