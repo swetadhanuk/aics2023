@@ -1,8 +1,27 @@
+@font-face{
+	font-family: 'EduNSWACTFoundation';
+	src: url('gooleFonts/Edu_NSW_ACT_Foundation/EduNSWACTFoundation-VariableFont_wght.ttf');
+	src: url('gooleFonts/Edu_NSW_ACT_Foundation/EduNSWACTFoundation-VariableFont_wght.ttf') format('ttf'),
+		url('gooleFonts/Edu_NSW_ACT_Foundation/EduNSWACTFoundation-VariableFont_wght.ttf') format('truetype');
+}
+@font-face{
+	font-family: 'YesevaOne-Regular';
+	src: url('gooleFonts/YesevaOne-Regular.ttf'),
+	src: url('gooleFonts/YesevaOne-Regular.ttf') format('ttf');
+		url('gooleFonts/YesevaOne-Regular.ttf') format('truetype');
+}
+@font-face{
+	font-family: 'Ruda-ExtraBold';
+	src: url('gooleFonts/Ruda/static/Ruda-ExtraBold.ttf');
+	src: url('gooleFonts/Ruda/static/Ruda-ExtraBold.ttf') format('ttf'),
+		url('gooleFonts/Ruda/static/Ruda-ExtraBold.ttf') format('truetype');
+}
+
 p{
-	font-family: 'Ruda', sans-serif;
+	font-family: 'Ruda-ExtraBold';
 }
 a{
-	font-family: 'Ruda', sans-serif;
+	font-family: 'Ruda-ExtraBold';
 }
 .container-fluid {
   position: relative;
@@ -24,7 +43,7 @@ a{
 
 
 .innovation{
-	font-family: 'Ruda', sans-serif;
+	font-family: 'Ruda-ExtraBold';
 	font-weight: bold;
 	font-size: 20px;
 	text-align: left;
@@ -33,7 +52,7 @@ a{
 	padding-top: 70px;
 }
 .dicover{
-	font-family: 'Yeseva One', cursive;
+	font-family: 'YesevaOne-Regular';
 	font-weight: bold;
 	text-align: left;
 	font-size: 40px;
@@ -52,7 +71,7 @@ a{
   
 }
 .head-style{
-	font-family: 'Edu NSW ACT Foundation', cursive;
+	font-family: 'EduNSWACTFoundation';
 	text-align: center;
 	font-weight: bold;
 	font-size: 25px;
@@ -61,7 +80,7 @@ a{
 	text-align: center;
 	font-weight: normal;
 	font-size: 20px;
-	font-family: 'Edu NSW ACT Foundation', cursive;
+	font-family: 'EduNSWACTFoundation';
 	padding-left: 30px;
 	padding-right: 30px;
 	padding-bottom: 30px;
@@ -116,7 +135,7 @@ a{
 }
 .intro{
 	color: #000000;
-	font-family: 'Yeseva One', cursive;
+	font-family: 'YesevaOne-Regular';
 	padding-top: 150px;
 	padding-right: 250px;
 	font-size: 15px;
@@ -124,7 +143,7 @@ a{
 	
 }
 .presenter-info{
-	font-family: 'Yeseva One', cursive;
+	font-family: 'YesevaOne-Regular';
 	text-align: center;
 	font-size: 30px;
 }
@@ -140,7 +159,7 @@ a{
 	background-color: #0C2D48;
 }
 .pname{
-	font-family: 'Yeseva One', cursive;
+	font-family: 'YesevaOne-Regular';
 	font-size: 20px;
 }
 .project-name{
